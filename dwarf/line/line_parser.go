@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/binary"
 
-	"github.com/hitzhangjie/golang-debugger/dwarf/util"
+	"github.com/hitzhangjie/golang-debugger-dev/dwarf/util"
 )
 
 type DebugLinePrologue struct {

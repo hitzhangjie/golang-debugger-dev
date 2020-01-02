@@ -7,10 +7,10 @@ import (
 	"syscall"
 	"testing"
 
-	helper "github.com/hitzhangjie/golang-debugger/_helper"
-	dwarfhelper "github.com/hitzhangjie/golang-debugger/dwarf/_helper"
-	"github.com/hitzhangjie/golang-debugger/dwarf/frame"
-	"github.com/hitzhangjie/golang-debugger/proctl"
+	helper "github.com/hitzhangjie/golang-debugger-dev/_helper"
+	dwarfhelper "github.com/hitzhangjie/golang-debugger-dev/dwarf/_helper"
+	"github.com/hitzhangjie/golang-debugger-dev/dwarf/frame"
+	"github.com/hitzhangjie/golang-debugger-dev/proctl"
 )
 
 func TestFindReturnAddress(t *testing.T) {

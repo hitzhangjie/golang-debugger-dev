@@ -15,9 +15,9 @@ import (
 	"syscall"
 	"unsafe"
 
-	"github.com/hitzhangjie/golang-debugger/dwarf/frame"
-	"github.com/hitzhangjie/golang-debugger/dwarf/line"
-	"github.com/hitzhangjie/golang-debugger/dwarf/op"
+	"github.com/hitzhangjie/golang-debugger-dev/dwarf/frame"
+	"github.com/hitzhangjie/golang-debugger-dev/dwarf/line"
+	"github.com/hitzhangjie/golang-debugger-dev/dwarf/op"
 )
 
 // Struct representing a debugged process. Holds onto pid, register values,

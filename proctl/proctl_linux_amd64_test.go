@@ -6,7 +6,7 @@ import (
 	"syscall"
 	"testing"
 
-	helper "github.com/hitzhangjie/golang-debugger/_helper"
+	helper "github.com/hitzhangjie/golang-debugger-dev/_helper"
 )
 
 func dataAtAddr(pid int, addr uint64) ([]byte, error) {

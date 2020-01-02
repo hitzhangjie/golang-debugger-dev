@@ -5,7 +5,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/hitzhangjie/golang-debugger/dwarf/util"
+	"github.com/hitzhangjie/golang-debugger-dev/dwarf/util"
 )
 
 type Location struct {
