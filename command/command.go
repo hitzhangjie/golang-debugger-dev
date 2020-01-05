@@ -12,7 +12,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hitzhangjie/golang-debugger/proctl"
+	"github.com/hitzhangjie/golang-debugger-dev/proctl"
 )
 
 // debugger commands associated hanlders

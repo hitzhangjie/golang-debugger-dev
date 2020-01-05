@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/hitzhangjie/golang-debugger/proctl"
+	"github.com/hitzhangjie/golang-debugger-dev/proctl"
 )
 
 func TestCommandDefault(t *testing.T) {
