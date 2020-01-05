@@ -39,14 +39,13 @@ func main() {
 		if entry == nil {
 			break
 		}
-
-		fmt.Printf("DIE: %#v\n", entry)
-
-		time.Sleep(time.Millisecond * 500)
-
 		if entry.Tag.GoString() != dwarf.TagCompileUnit.GoString() {
 			continue
 		}
+		if entry.AttrField(dwarf.AttrName).Val.(string) != "main" {
+			continue
+		}
+		fmt.Printf("DIE: %#v\n", entry)
 
 		lr, _ := dbg.LineReader(entry)
 		if lr != nil {
