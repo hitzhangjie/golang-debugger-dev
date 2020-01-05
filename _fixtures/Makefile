@@ -1,4 +1,4 @@
-FLAGS=-gcflags="-N -l"
+FLAGS=-gcflags="all=-N -l"
 GOGC=go
 CMD=build
 BUILD=${GOGC} ${CMD} ${FLAGS}
