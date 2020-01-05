@@ -44,6 +44,10 @@ func main() {
 
 		time.Sleep(time.Millisecond * 500)
 
+		if entry.Tag.GoString() != dwarf.TagCompileUnit.GoString() {
+			continue
+		}
+
 		lr, _ := dbg.LineReader(entry)
 		if lr != nil {
 			le := dwarf.LineEntry{}
