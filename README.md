@@ -1,5 +1,7 @@
 # golang-debugger-dev
 
+**this repo is archieved, please see github.com/hitzhangjie/godbg instead**
+
 ## introduction
 
 This project aims to introduce how to develop a (golang) debugger, it contains 2 repositories.
